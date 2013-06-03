@@ -1,0 +1,1 @@
+mp3 資料來源: http://www.gospel-news.org , 在此致謝! 
