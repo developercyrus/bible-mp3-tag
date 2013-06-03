@@ -10,12 +10,12 @@ import com.mpatric.mp3agic.Mp3File;
 import com.mpatric.mp3agic.NotSupportedException;
 import com.mpatric.mp3agic.UnsupportedTagException;
 
-public class Convert {
+public class Tagger01 {
 
     public static void main(String[] args) throws IOException, UnsupportedTagException, InvalidDataException, NotSupportedException {        
-        String rootName = "粵語聖經";
-        String path =  Convert.class.getResource(rootName).getPath();  
-        String destPath =  Convert.class.getProtectionDomain().getCodeSource().getLocation().getPath();
+        String rootName = "粵語聖經01";
+        String path =  Tagger01.class.getResource(rootName).getPath();  
+        String destPath =  Tagger01.class.getProtectionDomain().getCodeSource().getLocation().getPath();
         
         System.out.println(destPath);
         path = URLDecoder.decode(path, "utf-8");
@@ -43,7 +43,7 @@ public class Convert {
                         mp3file.setId3v2Tag(id3v2Tag);
                     }
                     id3v2Tag.setTrack(String.valueOf(k+1));
-                    id3v2Tag.setArtist("粵語聖經");
+                    id3v2Tag.setArtist("粵語聖經01");
                     id3v2Tag.setTitle(getS(chapterFolders[k]));
                     id3v2Tag.setAlbum(getS(bookFolders[j]));
                     
