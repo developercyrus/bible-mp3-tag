@@ -3,8 +3,10 @@
     <!-- 
         
         1. mvn install
-        2. run Convert.class
-        3. result file is at bible-mp3-tag\target\new_粵語聖經
+        2. run Tagger01.class
+        3. run Tagger02.class
+        4. result file is at bible-mp3-tag\target\new_粵語聖經01
+        5. result file is at bible-mp3-tag\target\new_粵語聖經02
     
      -->
     
