@@ -3,8 +3,8 @@
     <!-- 
         
         1. mvn install
-        2. run Tagger01.class
-        3. run Tagger02.class
+        2. run Tagger01.class in eclipse
+        3. run Tagger02.class in eclipse
         4. result file is at bible-mp3-tag\target\new_粵語聖經01
         5. result file is at bible-mp3-tag\target\new_粵語聖經02
     
